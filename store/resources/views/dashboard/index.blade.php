@@ -1,6 +1,10 @@
 
  @extends('layout.bar')
  @section('title','Dashboard')
+ @section('breadcrumb')
+ @parent
+ <li class="breadcrumb-item active">Starter Page</li>
+ @endsection
  @section('contant')
       <!-- Content Wrapper. Contains page content -->
 
